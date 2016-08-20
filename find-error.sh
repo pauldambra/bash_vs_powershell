@@ -19,4 +19,4 @@ done
 
 `git checkout master &> /dev/null`
 
-# 26 minutes including figuring out what git commands to run 
+# 26 minutes including figuring out what to do and what git commands to run 
