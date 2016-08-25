@@ -25,16 +25,16 @@ write-host "there were $($lines) total votes in the file"
 write-host "there were $($twentyTenLines) total votes in 2010"
 
 # VoteTypeId: 8 had 8632 votes
-# VoteTypeId: 10 had 199344 votes
-# VoteTypeId: 12 had 535 votes
-# VoteTypeId: 15 had 965 votes
-# VoteTypeId: 1 had 467439 votes
-# VoteTypeId: 2 had 4198861 votes
-# VoteTypeId: 5 had 380887 votes
-# VoteTypeId: 3 had 256759 votes
 # VoteTypeId: 4 had 200 votes
+# VoteTypeId: 12 had 535 votes
+# VoteTypeId: 1 had 467439 votes
+# VoteTypeId: 10 had 199344 votes
+# VoteTypeId: 3 had 256759 votes
 # VoteTypeId: 9 had 8578 votes
 # VoteTypeId: 11 had 13231 votes
-# there were 105301748 total votes in the file
+# VoteTypeId: 2 had 4198861 votes
+# VoteTypeId: 5 had 380887 votes
+# VoteTypeId: 15 had 965 votes
+# there were 105301745 total votes in the file
 # there were 5535431 total votes in 2010
-# powershell stack/process-votes.ps1 ~/Downloads/Votes.xml  2124.55s user 19.96s system 99% cpu 35:52.29 total
+# powershell ./process-votes.ps1 ~/Downloads/Votes.xml  279.78s user 7.00s system 99% cpu 4:49.45 total
