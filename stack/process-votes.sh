@@ -41,3 +41,15 @@ echo "there were $twenty_ten_count total votes in 2010"
 # there were 105301744 total votes in the file
 # there were 5535431 total votes in 2010
 # ./process-votes.sh ~/Downloads/Votes.xml  581.57s user 408.41s system 105% cpu 15:36.35 total
+
+# Average after 1 runs is 936.32
+# Average after 2 runs is 920.005
+# Average after 3 runs is 924.85
+# Average after 4 runs is 932.045
+# Average after 5 runs is 938.526
+# Average after 6 runs is 938.275
+# Average after 7 runs is 937.527
+# Average after 8 runs is 938.405
+# Average after 9 runs is 936.854
+# Average after 10 runs is 939.376
+# average execution is 939.376

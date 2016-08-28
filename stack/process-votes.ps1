@@ -38,3 +38,15 @@ write-host "there were $($twentyTenLines) total votes in 2010"
 # there were 105301745 total votes in the file
 # there were 5535431 total votes in 2010
 # powershell ./process-votes.ps1 ~/Downloads/Votes.xml  279.78s user 7.00s system 99% cpu 4:49.45 total
+
+# Average after 1 runs is 279.29
+# Average after 2 runs is 277.74
+# Average after 3 runs is 275.38
+# Average after 4 runs is 276.565
+# Average after 5 runs is 276.33
+# Average after 6 runs is 276.645
+# Average after 7 runs is 275.7
+# Average after 8 runs is 277.216
+# Average after 9 runs is 276.622
+# Average after 10 runs is 276.593
+# average execution is 276.593
