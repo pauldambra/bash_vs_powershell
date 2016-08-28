@@ -39,4 +39,21 @@ namespace ConsoleApplication
             Console.WriteLine("here were {1} total votes in 2010", voteTypeCounts.Values.Sum());
         }
     }
+
+//     time dotnet run ~/Downloads/Votes.xml
+// Project dotNetProcessor (.NETCoreApp,Version=v1.0) was previously compiled. Skipping compilation.
+// VoteTypeId: 2 had 4198861 votes
+// VoteTypeId: 5 had 380887 votes
+// VoteTypeId: 1 had 467439 votes
+// VoteTypeId: 10 had 199344 votes
+// VoteTypeId: 3 had 256759 votes
+// VoteTypeId: 9 had 8578 votes
+// VoteTypeId: 8 had 8632 votes
+// VoteTypeId: 4 had 200 votes
+// VoteTypeId: 11 had 13231 votes
+// VoteTypeId: 12 had 535 votes
+// VoteTypeId: 15 had 965 votes
+// there were 105301745 total votes in the file
+// here were 5535431 total votes in 2010
+// dotnet run ~/Downloads/Votes.xml  52.02s user 6.18s system 97% cpu 59.684 total
 }
