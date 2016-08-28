@@ -5,7 +5,7 @@ class Counter(dict):
     def __missing__(self, key):
         return 0
 
-line_counter = 0
+line_counter = -3
 vote_types = Counter()
 
 creation_date_regex = re.compile('CreationDate="2010')
@@ -35,9 +35,9 @@ print "there were %s total votes in 2010" % sum(vote_types.values())
 # VoteTypeId: 4 had 200 votes
 # VoteTypeId: 9 had 8578 votes
 # VoteTypeId: 8 had 8632 votes
-# there were 105301748 total votes in the file
+# there were 105301745 total votes in the file
 # there were 5535431 total votes in 2010
-# python ./stack/process-votes.py ~/Downloads/Votes.xml  65.35s user 12.90s system 92% cpu 1:24.75 total
+# python ./stack/process-votes.py ~/Downloads/Votes.xml  59.06s user 4.65s system 98% cpu 1:04.41 total
 
 # Average after 1 runs is 64.33
 # Average after 2 runs is 64.215
